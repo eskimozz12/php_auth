@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <title>Information about me</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="obito.jpg" alt="My photo" class="avatar" />
+        <div class="info-text">
+          <h1>Даниил Митин</h1>
+          <p>
+            Студент 4-ого курса
+            <strong>Тульского Государственного университета</strong>
+            , направление обучения - прикладная информатика в экономике
+          </p>
+          <p>
+            Люблю очень играть в игры, программировать, слушать музыку, также по
+            возможности стараюсь заниматься спортом
+          </p>
+
+          <h4>Мои социальные сети</h4>
+
+          <a href="https://vk.com/letmestayhome" target="_blank">Вконтакте</a>
+          |
+          <a
+            href="https://www.youtube.com/channel/UCCBiEz8voLA8nZnJGagmt1g"
+            target="_blank"
+            >Ютуб</a
+          >
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Мои любимые игры</h2>
+        <ol class="list">
+          <li>Футбол</li>
+          <li>Apex Legends</li>
+          <li>Сон</li>
+        </ol>
+      </div>
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>Проходил стажировку в it компании</td>
+              <td>Лето 2022</td>
+              <td>Стажер</td>
+            </tr>
+            <tr>
+              <td>Университет</td>
+              <td>2019-2023</td>
+              <td>Студент</td>
+            </tr>
+            <tr>
+              <td>Apex Legends</td>
+              <td>Всю жизнь</td>
+              <td>Киберспортсмен</td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </div>
+
+      <div class="card bg-red">
+        <h2>Мое резюме</h2>
+        <a href="https://github.com/eskimozz12">Мой GitHub</a>
+      </div>
+      <div class="contact">
+        <h2>Связь</h2>
+        <form action="/php_valid/exit.php">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" placeholder="Введите имя..." />
+            </div>
+            <div class="form-group">
+              <label for="email">Ваше имя</label>
+              <input type="email" id="email" placeholder="email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="text">Ваш комментарий</label>
+            <textarea name="" id="text" cols="30" rows="2"></textarea>
+          </div>
+          <input class="btn" type="submit" value="Выйти" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
